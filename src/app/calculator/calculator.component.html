@@ -1,0 +1,23 @@
+<div class="calculator shadow">
+
+  <!--Container of the visor-->
+  <div class="row">
+    <div class="col">
+      <app-visor></app-visor>
+    </div>
+  </div>
+
+  <!--Container of the buttons-->
+  <div class="container-buttons">
+
+    <!--Every button of the calc-->
+    <div *ngFor="let row of mapped_buttons" class="row no-gutters">
+      <div *ngFor="let value of row" class="col">
+        <app-button [value]="value"></app-button>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>

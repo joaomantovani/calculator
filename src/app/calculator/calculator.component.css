@@ -1,0 +1,14 @@
+.calculator {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  min-height: 300px;
+  margin-top: 1rem;
+  position: relative;
+  width: 100%;
+}
+
+
+.shadow {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

@@ -1,0 +1,23 @@
+.btn-calc {
+  background-color: #374352;
+  color: #C7CACE;
+  padding: 2em;
+  font-size: 1.5rem;
+  border: 1px solid #3A4655;
+}
+
+.btn-calc:hover {
+  background-color: #34404e;
+  color: #edf0f4;
+  cursor: pointer;
+}
+
+.noselectable {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
