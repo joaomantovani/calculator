@@ -1,0 +1,25 @@
+<div class="calculator shadow">
+
+  <!--Container of the visor-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        Visor
+      </div>
+    </div>
+  </div>
+
+  <!--Container of the buttons-->
+  <div class="container-fluid">
+
+    <!--Every button of the calc-->
+    <div *ngFor="let row of mapped_buttons" class="row">
+      <div *ngFor="let value of row" class="col">
+        {{value}}
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
