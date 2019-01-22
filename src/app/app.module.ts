@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { VisorComponent } from './calculator/visor/visor.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    VisorComponent
   ],
   imports: [
     BrowserModule
