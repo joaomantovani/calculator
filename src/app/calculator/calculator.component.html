@@ -8,12 +8,12 @@
   </div>
 
   <!--Container of the buttons-->
-  <div class="container-fluid">
+  <div class="container-buttons">
 
     <!--Every button of the calc-->
-    <div *ngFor="let row of mapped_buttons" class="row">
+    <div *ngFor="let row of mapped_buttons" class="row no-gutters">
       <div *ngFor="let value of row" class="col">
-        {{value}}
+        <app-button [value]="value"></app-button>
       </div>
     </div>
 
