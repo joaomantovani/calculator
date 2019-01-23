@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Button} from './button.model';
 
 @Component({
   selector: 'app-button',
@@ -7,7 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ButtonComponent implements OnInit {
 
-  @Input() value: String;
+  @Input() value: Button;
 
   addValueToVisor() {
 
