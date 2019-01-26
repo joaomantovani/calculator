@@ -3,7 +3,7 @@
   <!--Container of the visor-->
   <div class="row">
     <div class="col">
-      <app-visor></app-visor>
+      <app-visor [visor]="visor"></app-visor>
     </div>
   </div>
 
@@ -13,11 +13,10 @@
     <!--Every button of the calc-->
     <div *ngFor="let row of mapped_buttons" class="row no-gutters">
       <div *ngFor="let value of row" class="col">
-        <app-button [value]="value"></app-button>
+        <app-button [button]="value" [visor]="visor"></app-button>
       </div>
     </div>
 
   </div>
-
 
 </div>
