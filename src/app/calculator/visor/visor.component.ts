@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {Visor} from './visor.model';
 
 @Component({
   selector: 'app-visor',
@@ -7,12 +8,13 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class VisorComponent implements OnInit {
 
-  @Input() value: Number;
+  @Input() input: Number;
+  @Input() visor: Visor;
 
   constructor() { }
 
   ngOnInit() {
-    this.value = 0;
+
   }
 
 }

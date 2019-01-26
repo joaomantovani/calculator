@@ -21,3 +21,18 @@
   user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
+
+.btn-red,
+.btn-red:hover {
+  color: #F86554;
+}
+
+.btn-white,
+.btn-white:hover {
+  color: #EEF6F8;
+}
+
+.btn-pale,
+.btn-pale:hover {
+  color: #6B7582;
+}

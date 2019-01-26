@@ -1,6 +1,14 @@
 # Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+Idea for the project from: [A calculator App Article] from [Flavio Copes] 
+
+Author of the original calculator design: [Oleg Frolov]
+
+A lot of calculators inspirations: [Calculator bundle]
+
+Calculator original image: [Calculator Image]
+
+![Calculator design original][Calculator Image]
 
 ## Development server
 
@@ -22,6 +30,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Notes from Angular Cli
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+[Oleg Frolov]: http://collectui.com/designers/Volorf
+[Calculator Image]: https://static.collectui.com/shots/2311064/calculator-large
+[Calculator bundle]: http://collectui.com/challenges/calculator
+[A calculator App Article]: https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a
+[Flavio Copes]: https://medium.freecodecamp.org/@flaviocopes

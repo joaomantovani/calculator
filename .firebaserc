@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "prod": "calculator-45f80",
+    "default": "calculator-45f80"
+  }
+}
