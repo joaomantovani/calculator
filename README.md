@@ -1,14 +1,14 @@
 # Calculator
 
-Idea for the project from: [A calculator App Article] from [Flavio Copes] 
+Idea for the project from: [List of sample web app ideas] from [Flavio Copes] 
 
 Author of the original calculator design: [Oleg Frolov]
 
 A lot of calculators inspirations: [Calculator bundle]
 
-Calculator original image: [Calculator Image]
+Inspiration calculator original image: [Calculator Image]
 
-![Calculator design original][Calculator Image]
+![Calculator Gif][Calculator Angular Gif]
 
 ## Development server
 
@@ -43,3 +43,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [Calculator bundle]: http://collectui.com/challenges/calculator
 [A calculator App Article]: https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a
 [Flavio Copes]: https://medium.freecodecamp.org/@flaviocopes
+[Calculator Angular Gif]: https://i.imgur.com/lrixTFm.gif
