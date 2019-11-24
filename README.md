@@ -44,3 +44,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [A calculator App Article]: https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a
 [Flavio Copes]: https://medium.freecodecamp.org/@flaviocopes
 [Calculator Angular Gif]: https://i.imgur.com/lrixTFm.gif
+[List of sample web app ideas]: https://flaviocopes.com/sample-app-ideas/
